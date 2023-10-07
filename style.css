@@ -4302,7 +4302,7 @@ div#sparklinehome canvas {
   background-color: #86bc42;
 }
 .footer-copyright-area {
-  background: #006df0;
+  background: #80e8a3;
   padding: 20px 0px;
   text-align: center;
 }
@@ -5435,10 +5435,11 @@ div#sparklinehome canvas {
 /*----------------------------------------*/
 .footer-copy-right p {
   margin: 0px;
-  font-size: 15px;
-  color: #fff;
+  font-size: 1rem;
+  color: black;
 }
 .footer-copy-right a {
-  color: #fff;
+  color: black;
   text-decoration: none;
+  font-weight: 700;
 }
