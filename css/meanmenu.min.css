@@ -28,6 +28,13 @@ a.meanmenu-reveal {
   font-weight: 700;
   float: right;
 }
+.mean-container .mean-nav ul,
+.mean-container .mean-push,
+.mean-nav .wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 .mean-container a.meanmenu-reveal span {
   display: block;
   background: #fff;
@@ -40,9 +47,6 @@ a.meanmenu-reveal {
   background: #0c1923;
 }
 .mean-container .mean-nav ul {
-  padding: 0;
-  margin: 0;
-  width: 100%;
   list-style-type: none;
 }
 .mean-container .mean-nav ul li {
@@ -50,7 +54,7 @@ a.meanmenu-reveal {
   float: left;
   position: relative;
   width: 100%;
-  border-top: 1px solid#ddd;
+  border-top: 1px;
 }
 .mean-container .mean-nav ul li a {
   background: #f8f8f8;
@@ -113,12 +117,6 @@ a.meanmenu-reveal {
   font-weight: 700;
   border: 0 !important;
   background: #f8f8f8;
-}
-.mean-container .mean-push,
-.mean-nav .wrapper {
-  width: 100%;
-  padding: 0;
-  margin: 0;
 }
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: #f8f8f8;
